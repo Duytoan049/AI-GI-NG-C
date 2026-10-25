@@ -168,7 +168,7 @@ app.post('/api/tts', async (req: Request, res: Response) => {
     }
 
     const rawBuffer = Buffer.from(rawData, 'base64');
-    let finalWavBuffer = rawBuffer;
+    let finalWavBuffer: any = rawBuffer;
 
     // Check if it already has RIFF header, if not wrap PCM in WAV
     if (rawBuffer.length >= 4 && rawBuffer.toString('utf8', 0, 4) !== 'RIFF') {
