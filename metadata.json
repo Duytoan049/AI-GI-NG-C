@@ -1,0 +1,6 @@
+{
+  "name": "EduVoice VN - Chuyển Văn Bản Thành Giọng Nói Học Đường",
+  "description": "Tiện ích chuyển văn bản thành giọng nói chuẩn phục vụ môn Tiếng Anh và Tiếng Việt/Ngữ Văn theo chương trình Tiểu Học, THCS và THPT với chế độ Karaoke, Luyện chép chính tả và Giọng đọc AI diễn cảm.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
